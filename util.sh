@@ -3,16 +3,12 @@
 
 if [ `uname` == "FreeBSD" ]
 then
-    DMIDECODE="/usr/local/sbin/dmidecode" 		
     MD5="/sbin/md5"
     WGET="/usr/local/bin/wget"
-    LINKS="/usr/local/bin/links"
     DOT="/usr/local/bin/dot"
 else
-    DMIDECODE="/usr/sbin/dmidecode"
     MD5="/usr/bin/md5sum"
     WGET="/usr/bin/wget"
-    LINKS="/usr/bin/links"
     DOT="/usr/bin/dot"
 fi
 

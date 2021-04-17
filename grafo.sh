@@ -34,9 +34,6 @@ _corpo()
     local arp="/tmp/$RANDOM"
     arp -a > $arp
 
-    #local db="/tmp/$RANDOM"
-    #$WGET http://standards-oui.ieee.org/oui/oui.txt --output-document=$db
-
     local db="oui.txt"
 
     local i
