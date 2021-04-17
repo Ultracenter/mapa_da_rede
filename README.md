@@ -1,5 +1,5 @@
 
-Este código em shell script pode ajudar os administradores de rede a encontrarem
+Este código em shell script pode ajudar os administradores de rede a encontrar
 máquinas intrusas de forma rápida, simplesmente passando os olhos em um grafo.
 
 Para fazer o trabalho, este script utiliza para isso uma consulta a um arquivo 
